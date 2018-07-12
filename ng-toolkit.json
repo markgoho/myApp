@@ -3,5 +3,16 @@
     "skipInstall": false,
     "directory": ".",
     "project": "myApp"
+  },
+  "serverless": {
+    "provider": "firebase",
+    "firebaseProject": "cmacapp-b7482",
+    "skipInstall": false,
+    "directory": ".",
+    "project": "myApp",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
   }
 }
