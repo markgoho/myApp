@@ -14,5 +14,11 @@
       "aws": {},
       "gcloud": {}
     }
+  },
+  "pwa": {
+    "serverModule": "src/app/app.server.module.ts",
+    "skipInstall": false,
+    "directory": ".",
+    "project": "myApp"
   }
 }

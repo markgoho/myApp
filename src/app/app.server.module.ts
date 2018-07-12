@@ -1,3 +1,4 @@
+import { NgtPwaMockModule } from '@ng-toolkit/pwa';
 import { AppComponent } from './app.component';
 import { AppModule } from './app.module';
 import {NgModule} from '@angular/core';
@@ -10,6 +11,8 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
  bootstrap: [AppComponent],
 
     imports:[
+ NgtPwaMockModule,
+ 
  BrowserModule.withServerTransition({appId: 'app-root'}),
  
  AppModule,
